@@ -1,0 +1,16 @@
+{
+  "name": "date-difference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "file": "node src/file_input.js",
+    "console": "node src/console_input.js",
+    "test": "mocha --reporter spec --check-leaks test/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.5.0"
+  }
+}
