@@ -46,7 +46,8 @@ class Date {
             return 30;
         }
 
-        throw Error(`Invalid month/year (${month}/${year}).`);
+        const e = `Invalid month/year (${month}/${year}).`;
+        throw Error(e);
     }
 
     getDays() {
